@@ -15,7 +15,7 @@ const Gallery = () => {
 
 // useEffect API //
 useEffect(() => {
-  fetch("https://633ae6bf471b8c395577ddb4.mockapi.io/api/v1/dsad")
+  fetch("https://645a86c095624ceb21048d63.mockapi.io/gallery")
     .then((response) => {
       return response.json();
     })
@@ -43,7 +43,7 @@ useEffect(() => {
       title: title,
       image: image,
     };
-    fetch('https://633ae6bf471b8c395577ddb4.mockapi.io/api/v1/dsad', {
+    fetch('hhttps://645a86c095624ceb21048d63.mockapi.io/gallery', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

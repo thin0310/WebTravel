@@ -79,6 +79,7 @@ const Blogs = () => {
    
   </section>
   <a
+  
     data-aos="zoom-in-left"
     data-aos-delay={1300}
     href="#book-form"

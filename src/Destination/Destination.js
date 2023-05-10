@@ -6,7 +6,7 @@ const Destination = () => {
   const [listDestination, setlistDestination] = useState([]);
   useEffect(() => {
     fetch(
-      "https://633ae6bf471b8c395577ddb4.mockapi.io/api/v1/Destination" 
+      "https://63403652d1fcddf69cb4002a.mockapi.io/api/v1/abc" 
         
     )
       .then((response) => {
@@ -32,7 +32,7 @@ const Destination = () => {
               <img src={product.image} alt="" />
             </div>
             <div className="content">
-              <p>{product.title}</p>
+             
               <NavLink to={`/Product-detail/${product.id}`}>
                 {product.city} <i className="fas fa-angle-right" />
               </NavLink>

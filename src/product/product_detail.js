@@ -14,7 +14,7 @@ export const Prodict_detail = () => {
 
   useEffect(() => {
     fetch(
-      "https://633ae6bf471b8c395577ddb4.mockapi.io/api/v1/Destination/" +
+      "https://63403652d1fcddf69cb4002a.mockapi.io/api/v1/product-detail" +
         params.id
     )
       .then((response) => {
@@ -102,16 +102,7 @@ export const Prodict_detail = () => {
             </h3>
             <br />
             <p style={{ fontSize: "15px" }}>
-              Hà Nội là thủ đô, thành phố trực thuộc trung ương và là một đô thị
-              loại đặc biệt của Việt Nam. Hà Nội nằm về phía tây bắc của trung
-              tâm vùng đồng bằng châu thổ sông Hồng, với địa hình bao gồm vùng
-              đồng bằng trung tâm và vùng đồi núi ở phía bắc và phía tây thành
-              phố. Với diện tích 3.359,82 km²,[2] và dân số 8,33 triệu người,[4]
-              Hà Nội là thành phố trực thuộc trung ương có diện tích lớn nhất
-              Việt Nam, đồng thời cũng là thành phố đông dân thứ hai và có mật
-              độ dân số cao thứ hai trong 63 đơn vị hành chính cấp tỉnh của Việt
-              Nam, nhưng phân bố dân số không đồng đều. Hà Nội có 30 đơn vị hành
-              chính cấp huyện, gồm 12 quận, 17 huyện và 1 thị xã.
+             {inforproduct.text}
             </p>
           </div>
         </div>

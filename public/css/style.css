@@ -8,7 +8,7 @@
   box-sizing: border-box;
   outline: none;
   border: none;
-  text-decoration: none;
+  text-decoration: none !important;
   text-transform: capitalize;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
@@ -1316,7 +1316,7 @@ img, svg {
   margin: 0 auto;
 }
 .destination .box-container .box .content a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .dropdown-menu{
  width: 122px;
